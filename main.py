@@ -65,6 +65,8 @@ bot = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN)
 
+photo = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
+ 
 # Sudo command to add/remove sudo users
 @bot.on_message(filters.command("sudo"))
 async def sudo_command(bot: Client, message: Message):
